@@ -1,0 +1,110 @@
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Pagina do Robson - Contatos</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/formatacoes.css">
+    <link rel="icon" href="Css/code.png">
+</head>
+<div class="Centralizador">
+    <Header>
+        <img class="LOGO" src="CSS/LogoUnitins.png" alt="Unitins"> <!--Logo-->
+        <nav class="Menu">
+            <ul>
+                <li><img id="home" src="CSS/home (1).png" alt="home"><a href="index.html">INICIO</a></li>
+                <li><img src="CSS/pessoa.png" alt="logo-quemsoueu"><a href="quemsou.html">QUEM EU SOU</a></li>
+                <li><img src="CSS/contato.png" alt="contatos"><a href="contato.html">CONTATOS</a></li>
+                <li><img src="CSS/cadeado.png" alt="chave"><a href="geradorsenha.html">GERADOR DE SENHAS</a></li>
+                <li><a href="#">CARROSSEL</a></li>
+            </ul>
+
+        </nav>
+    </Header>
+    <hr>
+    <main>
+        <body>
+            <h1>Formulário</h1>
+
+            <form>
+                <fieldset>
+                    <legend>contatos Pessoais</legend>
+        
+                    <p><label for="e-mail">E-mail:</label>
+                    <input id="e-mail" name="e-mail" placeholder="Insira seu E-mail" required> </p>
+        
+                    <p><label for="telefone">Telefone:</label>
+                    <input id="telefone" name="telefone" placeholder="(00)0000-0000" required> </p>
+        
+                    <p><label for="midia social">midia social:</label>
+                    <input id="midia social" name="midia social" placeholder="@********" required> </p>
+        
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Informaçoes pessoais</legend>
+        
+                    <p><label for="nome">Nome:</label>
+                        <input id="nome" name="nome" placeholder="Insira seu nome" required autofocus> </p>
+                    
+                    <p><label for="idade">Idade:</label>
+                    <input id="idade" name="idade" placeholder="informe sua idade" required autofocus> </p>
+        
+                    <p><label for="Estado">Estado:</label>
+                        <select id="Estado" name="Estado">
+                        <option value="PA">Palmas</option>
+                        <option value="PE">Goiania</option>
+                        <option value="PI">Piau</option>
+                        <option value="PO">Bahia</option>
+                        <option value="PU">Maranhão</option> 
+                        </select> </p>
+            
+                    <p><label for="cidade">Cidade:</label>
+                        <select id="cidade" name="cidade">
+                        <option value="PA">Palmas</option>
+                        <option value="PE">Gurupi</option>
+                        <option value="PI">Natividade</option>
+                        <option value="PO">Colinas</option>
+                        <option value="PU">Porto Nacional</option> 
+                        </select> </p>
+        
+                    <p><label>Masculino:<input type="radio" name="sexo" value="masculino"></label>
+                    <label>Feminino:<input type="radio" name="sexo" value="Feminino"></label>
+                    <label>Não comentar:<input type="radio" name="sexo" value="não comentar"></label> </p>
+        
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Assunto:</legend>
+                    <p><label for="comentario">comentario:</label>
+                        <select id="comentario" name="comentario">
+                        <option value="Dvida">Duvida</option>
+                        <option value="Pergunta">Pergunta</option>
+                        <option value="Outros">Outros</option> 
+                        </select> </p>
+        
+                    <p><label for="msg">Mensagem:</label></p>
+                    <textarea name="msg" id="Mensagem" cols="40" rows="3"></textarea>
+                    <button type="submit">Enviar</button> 
+                </fieldset>
+        
+                <fieldset>
+                    <legend> menu principal </legend>
+                    <a href="T.menu.principa.html">
+                        <button type="button" class="list-group-item list-group-item-action"> Menu Principal </button>
+                        </a>
+        
+                        <button type="reset">limpar</button>
+                        
+                </fieldset>
+        
+            </form>
+        
+        </body>
+        
+        </html>
+    </body>
+    </main>
+    <footer>
+        <p class="copyright">© Copyright Gabriel Vinicius - 2022</p>
+    </footer>
+    </html>
